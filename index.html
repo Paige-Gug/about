@@ -8,12 +8,12 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
   </head>
 
   <style>
     body {
-      font-family: "Just Another Hand", cursive;
+      font-family: "Josefin Sans", sans-serif;
       font-size: 24px;
       margin: 0;
     }
@@ -26,6 +26,7 @@
       top: 0;
       position: fixed;
       z-index: 999;
+      font-family: "Just Another Hand", cursive;
     }
 
     ul {
@@ -54,28 +55,23 @@
       width: 100%;
       height: 100%;
       position: relative;
-      background-image: url("dots.png");
-      background-color: #FFFAF4;
     }
 
-    #landing img {
-      width: 25%;
-      padding: 3%;
-    }
-
-    #landing ul {
-      text-align: left;
-      margin: 0;
-    }
-
-    #landing li {
-      padding: 0;
+    #pic {
+      width: 40%;
       display: inline;
-      position: relative;
+      float: left;
     }
 
-    #row {
-      margin-bottom: 2em;
+    #pic img {
+      width: 90%;
+      padding: 5% 10%;
+    }
+
+    #me {
+      width: 60%;
+      display: inline;
+      float: right;
     }
 
     p {
@@ -84,7 +80,17 @@
       top: 0;
       left: 7%;
     }
-    
+
+    #me p {
+      width: 85%;
+      padding: 3% 5%;
+      margin: 0%;
+      left: 0;
+      color: black;
+      position: relative;
+      font-size: 0.7em;
+    }
+
     #logo {
       margin: 0.75em 0em;
       padding: 0;
@@ -96,14 +102,22 @@
       body {
         width: 100%;
       }
-      
+
       #landing p {
         position: relative;
         margin-bottom: 2em;
       }
 
-      #landing img {
+      #pic {
         width: 90%;
+      }
+
+      #me {
+        width: 90%;
+      }
+
+      #me p {
+        padding: 0;
       }
     }
 
@@ -125,7 +139,20 @@
     </div>
 
     <div id="landing">
-      
+      <div id="pic">
+        <img src="ssquote.png" alt="we are all stardust and stories">
+        <img src="DSC_0372.jpg" alt="A girl looks down in a meadow">
+      </div>
+      <div id="me">
+        <p>A digital storyteller who loves to turn words and experiences into pictures and videos. During covid lockdowns, I started making little videos for people to celebrate birthdays, anniversaries, surviving lockdowns, and more. It brought people little moments of happiness and reassured them they weren’t alone, and I realized I could create things that make people feel.<br><br>
+
+          As a student in the University of Waterloo’s Global Business and Digital Arts program, I have explored a variety of mediums, from long-form YouTube videos and stylized photoshoots to short-form social media content and fast-paced sport photography. Known for creating short films to document memories and celebrate milestones, my work often focuses on connecting events of the past with a certain emotion to create nostalgic, joyful, or bittersweet narratives.<br><br>
+
+          When I’m not creating, I can be found figure skating or crocheting. I'm also not one to turn down a good book or movie as I'm always looking for inspiration.<br><br>
+
+          If you love stories as much as I do, or are looking for someone who can tell yours, connect with me on <a href='https://www.linkedin.com/in/paige-gugeler-0273a6175/' target="blank">LinkedIn</a> and let’s create!
+        </p>
+      </div>
     </div>
   </body>
 </html>
