@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <title>Photoshoot Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-sale=1.0, width=device-width">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+  </head>
+
+  <style>
+    body {
+      font-family: "Just Another Hand", cursive;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    #nav {
+      background-color: #FFFAF4;
+      width: 100%;
+      height: 2.75em;
+      left: 0;
+      top: 0;
+      position: fixed;
+      z-index: 999;
+    }
+
+    ul {
+      text-align: right;
+      margin: 0.75em 0em;
+    }
+
+    li {
+      list-style: none;
+      display: inline;
+      padding: .75em;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #DA9AFF;
+    }
+
+    #landing {
+      margin-top: 2.75em;
+      padding-bottom: 0.5em;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-image: url("dots.png");
+      background-color: #FFFAF4;
+    }
+
+    #landing img {
+      width: 25%;
+      padding: 3%;
+    }
+
+    #landing ul {
+      text-align: left;
+      margin: 0;
+    }
+
+    #landing li {
+      padding: 0;
+      display: inline;
+      position: relative;
+    }
+
+    #row {
+      margin-bottom: 2em;
+    }
+
+    p {
+      color: #DA9AFF;
+      position: absolute;
+      top: 0;
+      left: 7%;
+    }
+    
+    #logo {
+      margin: 0.75em 0em;
+      padding: 0;
+      left: 3%;
+    }
+
+    /* Responsive Design Additions */
+    @media screen and (max-width: 600px) {
+      body {
+        width: 100%;
+      }
+      
+      #landing p {
+        position: relative;
+        margin-bottom: 2em;
+      }
+
+      #landing img {
+        width: 90%;
+      }
+    }
+
+    @media screen and (min-width: 600px) {
+      body {
+        width: 100%;
+      }
+    }
+  </style>
+
+  <body>
+    <div id="nav">
+      <p id="logo">Paige's Photoshoots</p>
+      <ul>
+        <li><a href="https://paige-gug.github.io/Photoshoots/">Home</a></li>
+        <li><a href="https://paige-gug.github.io/OTM/">Galleries</a></li>
+        <li><a href="/">About</a></li>
+      </ul>
+    </div>
+
+    <div id="landing">
+      
+    </div>
+  </body>
+</html>
